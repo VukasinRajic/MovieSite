@@ -1,0 +1,15 @@
+{
+  "name": "moviesite",
+  "version": "1.0.0",
+  "description": "A simple web site for movie / tv shows browsing and bookmarking",
+  "default": "index.html",
+  "scripts": {
+    "start": "parcel index.html movie.html person.html",
+    "build": "parcel build index.html movie.html person.html --dist-dir ./dist"
+  },
+  "author": "Vukasin Rajic",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}

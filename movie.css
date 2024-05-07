@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  color: #cfcfcf;
+
+  background-color: rgb(41, 41, 41);
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+}
+/* picture title----------------------------------------------------------- */
+.main-pic {
+  position: relative;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: rgb(11, 11, 11); */
+  background-color: black;
+}
+
+.movieBackground {
+  width: 90rem;
+  height: 50vh;
+  filter: blur(0.3rem);
+  padding: 2rem;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.movie-title {
+  position: relative;
+  font-size: 9rem;
+  font-weight: bolder;
+  color: white;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.3); /* Transparent initially */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  pointer-events: none;
+}
+.mid-text {
+  font-size: 6rem !important;
+}
+.smaller-text {
+  font-size: 5rem !important;
+}
+/* picture title----------------------------------------------------------- */
+/* description----------------------------------------------------------- */
+.desc {
+  height: auto;
+  width: 90rem;
+  margin: 0 auto;
+  border-radius: 1rem;
+  background-color: #303030;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.226);
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 1rem;
+  grid-template-rows: 10rem 10rem 10rem;
+  font-size: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-top: 3rem;
+  color: #fff;
+}
+
+.vote_average {
+  border: 4px solid green;
+  border-radius: 100%;
+  height: 6rem;
+  width: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: bolder;
+}
+.red {
+  border: 4px solid red;
+}
+.orange {
+  border: 4px solid orange;
+}
+.overview {
+  width: 70rem;
+
+  line-height: 1.5;
+  grid-row: span 2;
+  grid-column: span 4;
+  box-shadow: 0px 10px 10px 5px rgba(0, 0, 0, 0.226);
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  padding: 2rem;
+  padding-top: none;
+  padding-bottom: none;
+  background-color: rgb(48, 48, 48);
+}
+.overview.overview-big {
+  grid-row: span 4;
+}
+.overview.overview-medium {
+  grid-row: span 3;
+}
+.budget {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 9rem;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.date-time {
+  text-align: center;
+  line-height: 1.4;
+}
+/* description----------------------------------------------------------- */
+.gallery {
+  height: 50vh;
+  overflow: hidden;
+}
+/* slider*/
+/* SLIDER */
+.slider {
+  width: 100%;
+  height: 50rem;
+  /* margin: 0 auto; */
+  position: relative;
+
+  /* IN THE END */
+  overflow: hidden;
+  padding-bottom: 10rem;
+  margin-top: 1rem;
+}
+
+.slide-img:hover {
+  transform: translateY(-5%);
+  transition: transform 0.6s ease;
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+
+  height: 50rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  /* THIS creates the animation! */
+  transition: transform 0.75s;
+}
+
+.slider__btn {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+
+  border: none;
+  background: rgba(333, 333, 333, 0.7);
+  font-family: inherit;
+  color: #255;
+  border-radius: 1rem;
+  height: 5.5rem;
+  width: 5.5rem;
+  font-size: 3.25rem;
+  cursor: pointer;
+}
+
+.slider__btn--left {
+  left: 2%;
+  transform: translate(-50%, -50%);
+}
+
+.slider__btn--right {
+  right: 2%;
+  transform: translate(50%, -50%);
+}
+
+.slide-img {
+  border-radius: 1rem;
+  box-shadow: 4px 10px 10px 5px rgba(0, 0, 0, 0.4);
+  height: 35rem;
+  width: 23.3rem;
+}
+.similar-movies {
+  border-top: 2px dotted rgb(80, 80, 80);
+  background-color: rgb(27, 27, 27);
+}
+/* ------------------------------------------------ */
+.section {
+  width: 90rem;
+  margin: 0 auto;
+}
+.slider-title {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slider-title p {
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+.bookmarkBTN {
+  font-size: 3rem;
+  margin-right: 1rem;
+  margin-bottom: 1rem;
+  border: 2px solid white;
+  border-radius: 100%;
+  width: 6rem;
+  height: 6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film app</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="body" id="body">
+    <nav class="nav-bar">
+      <div class="user acc1" id="main-user">
+        <div class="user-logo"><p>U</p></div>
+        <p class="user-name">User</p>
+      </div>
+      <div class="main-nav">
+        <ul>
+          <li>
+            <div class="search-container off-focus-btn" id="searchContainer">
+              <i class="fa-solid fa-magnifying-glass icon-nav"></i>
+              <p>Search</p>
+              <form id="form">
+                <input type="text" class="search-input" id="search" />
+              </form>
+            </div>
+          </li>
+          <li>
+            <div id="movies-btn" class="focus-btn">
+              <i class="fa-solid fa-film icon-nav"></i>
+              <p>Movies</p>
+            </div>
+          </li>
+          <li>
+            <div id="series-btn" class="off-focus-btn">
+              <i class="fa-solid fa-tv icon-nav"></i>
+              <p>Series</p>
+            </div>
+          </li>
+          <li>
+            <div id="actors-btn" class="off-focus-btn">
+              <i class="fa-solid fa-star icon-nav"></i>
+              <p>Actors</p>
+            </div>
+          </li>
+          <li>
+            <div id="bookmarks-btn" class="off-focus-btn">
+              <i class="fa-regular fa-bookmark icon-nav"></i>
+              <p>Bookmarks</p>
+            </div>
+          </li>
+        </ul>
+        <div class="settings off-focus-btn" id="settings-btn">
+          <i class="fa-solid fa-gear icon-nav"></i>
+          <p>Settings</p>
+        </div>
+      </div>
+      <button class="btn-mobile-nav">
+        <i class="fa-solid fa-bars icon-mobile-nav"></i>
+        <i class="fa-solid fa-xmark icon-mobile-nav"></i>
+      </button>
+    </nav>
+
+    <section class="section-films" id="main"></section>
+    <section class="settings-page deactivate">
+      <div class="title"><p>Who's watching ?</p></div>
+      <div class="accounts">
+        <div class="acc acc1" id="acc1">
+          <div class="user-logo">
+            <p>U</p>
+          </div>
+          <p class="acc-name">User</p>
+        </div>
+        <div class="acc acc2" id="acc2">
+          <div class="user-logo">
+            <p></p>
+          </div>
+          <p class="acc-name">+</p>
+        </div>
+        <div class="acc acc3" id="acc3">
+          <div class="user-logo">
+            <p></p>
+          </div>
+          <p class="acc-name">+</p>
+        </div>
+      </div>
+
+      <section class="edit-section deactivate">
+        <div class="btn-edit"><p>Edit</p></div>
+      </section>
+
+      <div class="settings-reveal deactivate">
+        <div class="colors">
+          <div class="pink color-box"></div>
+          <div class="pink-purple color-box"></div>
+          <div class="purple color-box"></div>
+          <div class="blue-purple color-box"></div>
+          <div class="blue color-box"></div>
+        </div>
+        <div class="btnss">
+          <form class="name-changer">
+            <input type="text" id="name-changer-p" title="9 letters max" />
+          </form>
+          <div class="final-btns">
+            <div class="btn-final" id="save"><p>Save</p></div>
+            <div class="btn-final" id="delete"><p>Delete</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bookmarks-page deactivate"></section>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="queriesMain.css" />
+    <script type="module" src="controler.js"></script>
+  </body>
+</html>

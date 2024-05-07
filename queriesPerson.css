@@ -1,0 +1,227 @@
+@media (max-width: 113.125em) {
+  .actor-img {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 107.625em) {
+  .section-pic {
+    grid-column: span 2;
+    height: 50vh;
+  }
+  .actor-img {
+    width: 20rem;
+  }
+  .info {
+    grid-column: span 2;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+}
+@media (max-width: 80em) {
+  .info {
+    grid-template-columns: 40rem 20rem 20rem 20rem;
+    /* height: 110vh; */
+  }
+}
+
+@media (max-width: 70em) {
+  .info {
+    grid-template-columns: 40rem 10rem 10rem 10rem;
+    /* height: 140vh; */
+  }
+  .films {
+    grid-template-columns: repeat(3, 20rem);
+  }
+}
+
+@media (max-width: 52.5625em) {
+  .info {
+    grid-template-columns: 45rem 0rem 10rem 10rem;
+  }
+  .films {
+    grid-template-columns: repeat(3, 17rem);
+  }
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 44.75em) {
+  .info {
+    grid-template-columns: 35rem 0rem 10rem 10rem;
+    /* height: 150vh; */
+  }
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+}
+
+@media (max-width: 39.125em) {
+  .info {
+    grid-template-columns: 35rem 0rem 10rem 10rem;
+    /* height: 150vh; */
+  }
+  .section-pic {
+    grid-column: span 2;
+    height: 37vh;
+  }
+
+  html {
+    /* 9px / 16px  */
+    font-size: 50%;
+  }
+  .films {
+    grid-template-columns: repeat(3, 18rem);
+  }
+}
+
+@media (max-width: 37.125em) {
+  .films {
+    grid-template-columns: repeat(2, 22rem);
+    grid-template-rows: 35rem 35rem;
+    column-gap: 13rem;
+    height: 70vh;
+    row-gap: 5rem;
+  }
+}
+
+@media (max-width: 34.625em) {
+  .films {
+    grid-template-columns: repeat(2, 19rem);
+    grid-template-rows: 32rem 32rem;
+    column-gap: 10rem;
+    height: 65vh;
+  }
+  .info {
+    grid-template-columns: 30rem 0rem 10rem 10rem;
+    /* height: 150vh; */
+  }
+}
+
+@media (max-width: 32.25em) {
+  .info {
+    grid-template-columns: 25rem 0rem 10rem 10rem;
+    /* height: 155vh; */
+  }
+  .name {
+    font-size: 4rem;
+  }
+}
+
+@media (max-width: 29.5em) {
+  .info {
+    grid-template-columns: 10rem 10rem;
+    grid-template-rows: 10rem 10rem 1fr;
+    /* height: 180vh; */
+  }
+  .bio {
+    margin-top: 2rem;
+    align-self: start;
+  }
+  .job {
+    grid-column: span 2;
+  }
+  .popularity {
+    grid-column: span 2;
+  }
+  .name {
+    font-size: 4rem;
+    grid-column: span 4;
+    justify-content: center;
+  }
+  .films {
+    grid-template-columns: repeat(2, 16rem);
+    grid-template-rows: 32rem 32rem;
+    column-gap: 7rem;
+    height: 65vh;
+  }
+}
+@media (max-width: 27.625em) {
+  .info {
+    /* height: 205vh; */
+  }
+}
+@media (max-width: 25em) {
+  .info {
+    grid-template-columns: 8rem 8rem;
+    grid-template-rows: max-content;
+    /* height: 240vh; */
+  }
+  .films {
+    grid-template-columns: repeat(2, 16rem);
+    grid-template-rows: 32rem 32rem;
+    column-gap: 4rem;
+    row-gap: 0rem;
+    height: 65vh;
+  }
+}
+
+@media (max-width: 23.5em) {
+  .info {
+    grid-template-columns: 5rem 5rem;
+    grid-template-rows: max-content;
+    /* height: 260vh; */
+  }
+  .job {
+    grid-column: span 2;
+  }
+  .popularity {
+    grid-column: span 2;
+  }
+  .name {
+    font-size: 4rem;
+    grid-column: span 4;
+    justify-content: center;
+  }
+  .films {
+    padding-left: 2.5rem;
+    grid-template-columns: repeat(2, 14rem);
+    grid-template-rows: 32rem 32rem;
+    column-gap: 4rem;
+    row-gap: 0rem;
+    height: 65vh;
+  }
+}
+
+@media (max-width: 20em) {
+  .info {
+    grid-template-columns: 4rem 4rem;
+    grid-template-rows: max-content;
+    /* height: 300vh; */
+  }
+  .job {
+    grid-column: span 2;
+  }
+  .popularity {
+    grid-column: span 2;
+  }
+  .name {
+    font-size: 4rem;
+    grid-column: span 4;
+    justify-content: center;
+  }
+  .films {
+    padding-left: 2.5rem;
+    grid-template-columns: repeat(2, 12rem);
+    grid-template-rows: 32rem 32rem;
+    column-gap: 4rem;
+    row-gap: 0rem;
+    height: 65vh;
+  }
+}
+
+@media (max-height: 45.3125em) {
+  .actor-img {
+    width: 18rem;
+  }
+}
+
+@media (max-height: 38.3125em) {
+  .actor-img {
+    width: 16rem;
+  }
+}

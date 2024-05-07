@@ -1,0 +1,198 @@
+@media (max-width: 59.375em) {
+  .movieBackground {
+    width: 75rem;
+    height: auto;
+  }
+  .desc {
+    width: 75rem;
+  }
+  .section {
+    width: 75rem;
+  }
+}
+
+@media (max-width: 53.25em) {
+  .movieBackground {
+    width: 65rem;
+  }
+  .desc {
+    width: 65rem;
+  }
+  .section {
+    width: 65rem;
+  }
+  .overview {
+    width: 60rem;
+  }
+  .movie-title {
+    text-align: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .slider__btn--right {
+    right: 10%;
+  }
+  .slider__btn--left {
+    left: 10%;
+  }
+}
+
+@media (max-width: 43.25em) {
+  html {
+    font-size: 50%;
+  }
+  .movieBackground {
+    width: 65rem;
+    height: auto;
+  }
+  .main-pic {
+    height: 45vh;
+  }
+}
+
+@media (max-width: 37.875em) {
+  .movieBackground {
+    width: 65rem;
+    height: auto;
+  }
+  .main-pic {
+    height: 40vh;
+  }
+  .desc {
+    width: 55rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 10rem 10rem 10rem;
+  }
+  .overview {
+    grid-column: span 2;
+  }
+  .section {
+    width: 55rem;
+  }
+  .overview {
+    width: 50rem;
+  }
+}
+
+@media (max-width: 35.0625em) {
+  .movieBackground {
+    width: 55rem;
+    height: auto;
+  }
+}
+
+@media (max-width: 31em) {
+  .movieBackground {
+    width: 55rem;
+    height: auto;
+  }
+  .main-pic {
+    height: 40vh;
+  }
+  .desc {
+    width: 50rem;
+  }
+  .section {
+    width: 50rem;
+  }
+  .overview {
+    width: 47rem;
+  }
+}
+
+@media (max-width: 28.5em) {
+  .movieBackground {
+    width: 48rem;
+    height: auto;
+  }
+
+  .main-pic {
+    height: 35vh;
+  }
+  .desc {
+    width: 45rem;
+    gap: 0rem;
+  }
+  .section {
+    width: 45rem;
+  }
+  .overview {
+    width: 40rem;
+  }
+}
+
+@media (max-width: 25em) {
+  .movieBackground {
+    width: 45rem;
+    height: auto;
+  }
+
+  .main-pic {
+    height: 35vh;
+  }
+  .desc {
+    width: 40rem;
+    gap: 0rem;
+  }
+  .section {
+    width: 40rem;
+  }
+  .overview {
+    width: 37rem;
+  }
+}
+
+@media (max-width: 23.75em) {
+  .movieBackground {
+    width: 40rem;
+    height: auto;
+  }
+
+  .main-pic {
+    height: 30vh;
+  }
+  .desc {
+    width: 40rem;
+    gap: 0rem;
+  }
+  .section {
+    width: 35rem;
+  }
+  .overview {
+    width: 33rem;
+  }
+}
+
+@media (max-width: 22.5em) {
+  .movieBackground {
+    width: 35rem;
+    height: auto;
+  }
+
+  .main-pic {
+    height: 30vh;
+  }
+  .desc {
+    width: 38rem;
+    gap: 0rem;
+  }
+  .section {
+    width: 35rem;
+  }
+  .overview {
+    width: 35rem;
+  }
+}
+
+@media (max-width: 21.25em) {
+  .desc {
+    width: 33rem;
+    gap: 0rem;
+  }
+  .section {
+    width: 30rem;
+  }
+  .overview {
+    width: 30rem;
+  }
+}
